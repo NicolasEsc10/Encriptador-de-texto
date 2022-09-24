@@ -1,0 +1,228 @@
+body{
+    background-color: #F3F5FC ;
+}
+
+.ocultar{
+    display: none;
+}
+
+/*-----------------LOGO--------------------*/
+.logo{
+    width: 70%;
+    height: 15%;
+    float: left;
+}
+
+.logo-img{
+    position: static;
+    margin: 20px 0 0 40px;
+}
+/*-----------------TEXTO IZQUIERDO--------------------*/
+.text-left{
+    background-color: none;
+    width: 65%;
+    height: 65%;
+    float: left;
+    border-radius: 24px;
+    margin-left: 5%;
+}
+
+#text-area{
+    position: relative;
+    display: block;
+    margin: 6px auto;
+    padding: 10px;
+    width: 98.5%;
+    height: 97%;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 24px;
+    color: #0A3871;
+    border: 4px solid #0A3871;
+    font-family: 'Inter', sans-serif;
+}
+
+#text-area::placeholder{
+    color: #0A3871;
+}
+
+/*-----------------BOTONES--------------------*/
+.left-button{
+    position: relative;
+    float: left;
+    width: 65%;
+    height: 19%;
+    margin-left: 5%;
+    border-radius: 24px;
+}
+
+.advertencia{
+    position: relative;
+    width: auto;
+    margin-left: 60px;
+}
+
+.img-advertencia{
+    position: relative;
+    top: 4px;
+}
+
+.texto-advertencia{
+    display: inline-block;
+    margin: 15px 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #495057;
+}
+
+.encriptar, .desencriptar{
+    margin-left: 60px ;
+    padding: 24px;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    gap: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19.36px;
+    border: 1px solid #0A3871;
+}
+
+.encriptar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.encriptar:hover{
+    background-color: #072B61;
+    color: #FFFFFF;
+}
+
+.desencriptar{
+    background-color: #FFFFFF;
+    color: #0A3871;
+}
+
+.desencriptar:hover{
+    background-color: #EFF1FA;
+    color: #0A3871;
+}
+
+/*-----------------TEXTO DERECHO--------------------*/
+
+.text-right{
+    background-color: #FFFFFF;
+    width: 25%;
+    margin: -75px 2.5% 10px;
+    height: 94%;
+    float: right;
+    border-radius: 24px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.img-muñeco{
+    margin: 10% 5%;
+    width: 90%;
+    height: 270px;
+    margin-top: 80px;
+}
+.container-parrafo{
+    font-family: 'Inter', sans-serif;
+}
+
+.first-parrafo{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    line-height: 28.8px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 18px 0 0 0;
+    color: #343A40;
+}
+
+.sec-parrafo{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin: 18px 0 100px 0;
+    color: #495057;
+    font-size: 15px;
+}
+
+#text-area-right{
+    color: #495057;
+    width: 100%;
+    height: 88%;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 24px;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#copiar{
+    height: 67px;
+    width: 320px;
+    top: 885px;
+    border-radius: 24px;
+    padding: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19.36px;
+    border: 1px solid #0A3871;
+    background-color: #FFFFFF;
+    color: #0A3871;
+
+}
+
+#copiar:hover{
+    height: 67px;
+    width: 320px;
+    top: 885px;
+    border-radius: 24px;
+    padding: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19.36px;
+    border: 1px solid #0A3871;
+    background-color: #EFF1FA;
+    color: #0A3871;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Las medidas de la tablet son: 
+height: 1174px;
+width: 768px;
+left: -2277px;
+top: 2024px;
+border-radius: 0px;*/

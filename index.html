@@ -1,0 +1,72 @@
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Encriptador de codigo</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="container-logo">
+            
+            <div class="logo">
+                <img class="logo-img" src="img/Vector.png" alt="logo.png">
+            </div>
+
+        </div>
+        
+        <div class="text-left">
+            <textarea id="text-area" placeholder="Ingrese el texto aqui" autofocus ></textarea>
+        </div>
+
+        
+        <div class="text-right">
+
+            <div class="imagen-texto ">
+
+                <img src="img/Muñeco.png" class="img-muñeco" >
+
+                <div class="container-parrafo">
+                    <p class="first-parrafo">Ningún mensaje fue encontrado</p>
+    
+                    <p class="sec-parrafo">Ingrese el texto que desea encriptar o desencriptar.</p>
+                </div>
+
+            </div>
+            
+
+
+            <div class="resultado">
+                <textarea id="text-area-right" cols="80" rows="8" readonly></textarea>
+
+                <button id="copiar" type="button" onclick="copiar()">Copiar</button>
+            </div>
+
+        </div>
+
+        <div class="left-button">
+
+            <div class="advertencia">
+                <img class="img-advertencia" src="img/advertencia.png" alt="advertencia">
+                <p class="texto-advertencia">Solo letras minúsculas y sin acentos</p>
+            </div>
+            
+
+            <button type="button" class="encriptar">Encriptar</button>
+            <button type="button" class="desencriptar">Desencriptar</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
